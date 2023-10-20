@@ -27,7 +27,7 @@ function Projects() {
                 <div>
                   <h3>{name}</h3>
                   <a href={link}>Link</a>
-                  <a href={github}><i class="devicon-github-original colored"></i></a>
+                  <a href={github}><i className="devicon-github-original colored"></i></a>
                 </div>
 
               </div>

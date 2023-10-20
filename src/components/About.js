@@ -38,7 +38,7 @@ function About() {
               skills.map(({ name, image }, index) => {
                 return (
                   <div key={index}>
-                    <i class={image}></i>
+                    <i className={image}></i>
                   </div>
                 )
               })
