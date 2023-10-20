@@ -1,4 +1,5 @@
 import { useState } from "react"
+import NavLink from './NavLink'
 
 function Header() {
   const [open, setOpen] = useState(false)
@@ -8,14 +9,14 @@ function Header() {
   }
 
   return (
-    <header className="md:flex md:justify-between md:px-5 md:py-3 md:items-center">
-      <nav className="flex items-center justify-between px-5 py-3 md: p-0">
+    <header className="px-5 py-3 bg-gray-100 md:flex md:justify-betweenmd:items-center">
+      <nav className="flex items-center justify-between">
         <div>
-          <a href="/">ALEX PARKER</a>
+          <a href="/" className="font-bold">ALEX PARKER</a>
         </div>
         <div className="md:hidden">
-          <button type="button" className="text-gray-800 block" onClick={handleOpen}>
-            <svg className="h-8 w-8 fill-current" viewBox='0 0 24 24' width='30'>
+          <button type="button" className="relative z-10 block text-gray-800" onClick={handleOpen}>
+            <svg className="w-8 h-8 fill-current" viewBox='0 0 24 24' width='30'>
               {
                 open ?
                   <path v-if="isOpen" fill-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z" />
@@ -24,13 +25,14 @@ function Header() {
               }
             </svg>
           </button>
+          {open && <button onClick={() => setOpen(false)} className="absolute inset-0 w-full h-full bg-transparent cursor-default" ></button>}
         </div>
       </nav>
-      <div className={"px-3 pb-5 pt-2 md:flex md:p-0 text-right absolute right-0" + (open ? ' block' : ' hidden')} id="navbar">
-        <a className="block px-2 py-1 hover:text-teal-700 md:ml-2" href="/">ABOUT</a>
-        <a className="block px-2 py-1 hover:text-yellow-600 md:ml-2" href="/">PROJECTS</a>
-        <a className="block px-2 py-1 hover:text-red-500 md:ml-2" href="/">EXPERIENCE</a>
-        <a className="block px-2 py-1 hover:text-pink-600 md:ml-2" href="/">CONTACT</a>
+      <div className={"text-right absolute right-0 px-2 py-2 rounded shadow-xl bg-gray-100 md:flex" + (open ? ' block' : ' hidden')} id="navbar">
+        <NavLink color="text-teal-500" href='#about'>ABOUT</NavLink>
+        <NavLink color="text-yellow-600" href='#projects'>PROJECTS</NavLink>
+        <NavLink color="text-red-500" href='#experience'>EXPERIENCE</NavLink>
+        <NavLink color="text-pink-600" href='#contact'>CONTACT</NavLink>
       </div>
     </header>
   )

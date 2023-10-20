@@ -3,7 +3,24 @@ import React from 'react'
 function About() {
 
   const skills = [
-    { name: 'javaScript', image: 'devicon-javascript-plain' }
+    { name: 'JavaScript', image: 'devicon-javascript-plain' },
+    { name: 'CSS3', image: 'devicon-css3-plain' },
+    { name: 'HTML5', image: 'devicon-html5-plain' },
+    { name: 'React', image: 'devicon-react-original' },
+    { name: 'MongoDB', image: 'devicon-mongodb-plain' },
+    { name: 'express', image: 'devicon-express-original' },
+    { name: 'Next.js', image: 'devicon-nextjs-plain' },
+    { name: 'Node.js', image: 'devicon-nodejs-plain' },
+    { name: 'Sass', image: 'devicon-sass-plain' },
+    { name: 'Bootstrap', image: 'devicon-bootstrap-plain' },
+    { name: 'Material UI', image: 'devicon-materialui-plain' },
+    { name: 'Python', image: 'devicon-python-plain' },
+    { name: 'django', image: 'devicon-django-plain' },
+    { name: 'PostgreSQL', image: 'devicon-postgresql-plain' },
+    { name: 'Git', image: 'devicon-git-plain' },
+    { name: 'Heroku', image: 'devicon-heroku-plain' },
+    { name: 'Figma', image: 'devicon-figma-plain' },
+    { name: 'VS Code', image: 'devicon-vscode-plain' }
   ]
   return (
     <section id='about' className=''>
@@ -18,10 +35,10 @@ function About() {
           </div>
           <div>
             {
-              skills.map((skill, index) => {
+              skills.map(({ name, image }, index) => {
                 return (
                   <div key={index}>
-                    <i class={skill.image}></i>
+                    <i class={image}></i>
                   </div>
                 )
               })

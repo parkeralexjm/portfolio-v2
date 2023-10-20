@@ -13,13 +13,17 @@ import './App.css';
 function App() {
   return (
     <>
-      <Nav />
-      <Hero />
-      <About />
-      <Projects />
-      <Experience />
-      <Contact />
-      <Footer />
+      <div className='parallax'>
+        <div className=''>
+          <Nav />
+          <Hero />
+          <About />
+          <Projects />
+          <Experience />
+          <Contact />
+          <Footer />
+        </div>
+      </div>
     </>
   );
 }
