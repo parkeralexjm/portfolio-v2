@@ -2,25 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  overflow: hidden;
-  width: 100vw;
-}
-
-#root {
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  perspective: 1px;
-  -webkit-perspective: 1px;
-  transform-style: preserve-3d;
-  -webkit-transform-style: preserve-3d;
-}
-
 body,
 html,
 #root {
-  margin: 0;
+  margin: 0px;
   padding: 0px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

@@ -13,7 +13,7 @@ function About() {
     { name: 'Node.js', image: 'devicon-nodejs-plain' },
     { name: 'Sass', image: 'devicon-sass-plain' },
     { name: 'Bootstrap', image: 'devicon-bootstrap-plain' },
-    { name: 'Material UI', image: 'devicon-materialui-plain' },
+    { name: 'MaterialUI', image: 'devicon-materialui-plain' },
     { name: 'Python', image: 'devicon-python-plain' },
     { name: 'django', image: 'devicon-django-plain' },
     { name: 'PostgreSQL', image: 'devicon-postgresql-plain' },
@@ -23,22 +23,23 @@ function About() {
     { name: 'VS Code', image: 'devicon-vscode-plain' }
   ]
   return (
-    <section id='about' className=''>
-      <div className='flex flex-col items-center'>
-        <h2>ABOUT ME</h2>
-        <span className='w-[50px] h-[10px] bg-yellow-400 rounded'></span>
-        <div>
-          <div>
-            <h3>My Journey</h3>
-            <p>Having worked as a teacher for the last 7 years I am seeking to change to a career as a software developer.</p>
-            <p>As a passionate and versatile software engineer, my journey has taken me from the classroom to coding, blending the precision and problem-solving skills honed as a teacher with a profound love for technology.</p>
+    <section id='about' className='flex justify-center p-12 bg-gray-100'>
+      <div className='container flex flex-col items-center'>
+        <h2 className='mb-6 text-4xl'>ABOUT ME</h2>
+        <span className='w-[50px] h-[10px] bg-yellow-400 rounded mb-6'></span>
+        <div className='flex flex-col justify-center'>
+          <div className='mb-6'>
+            <h3 className='text-xl'>My Journey</h3>
+            <p className='text-justify'>Having worked as a teacher for the last 7 years I am seeking to change to a career as a software developer.</p>
+            <p className='text-justify'>As a passionate and versatile software engineer, my journey has taken me from the classroom to coding, blending the precision and problem-solving skills honed as a teacher with a profound love for technology.</p>
           </div>
-          <div>
+          <div className='flex flex-wrap justify-center mb-6'>
             {
               skills.map(({ name, image }, index) => {
                 return (
-                  <div key={index}>
-                    <i className={image}></i>
+                  <div key={index} className='flex flex-col items-center justify-center w-24 h-24 m-2 bg-gray-200 rounded shadow-md'>
+                    <i className={`${image} text-5xl my-2`}></i>
+                    <h5>{name}</h5>
                   </div>
                 )
               })

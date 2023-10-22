@@ -8,8 +8,13 @@ function Header() {
   }
 
   const NavLink = ({ children, color, href }) => {
-    const linkLayoutClasses = 'block text-xl px-4 py-2 font-semibold transition ease-in duration-200'
-    const finalLinkClasses = `${linkLayoutClasses} hover:${color}`
+    const colorVariants = {
+      teal: 'hover:text-teal-500',
+      red: 'hover:text-red-500',
+      yellow: 'hover:text-yellow-500'
+    }
+    const linkLayoutClasses = 'block text-gray-800 text-xl z-20 px-4 py-2 font-semibold transition ease-in duration-200'
+    const finalLinkClasses = `${linkLayoutClasses} ${colorVariants[color]}`
     return (
       <a className={finalLinkClasses} href={href}>{children}</a>
     )
@@ -20,10 +25,10 @@ function Header() {
       <div className="container px-5 py-3 mx-auto md:flex md:justify-between">
         <nav className="flex items-center justify-between">
           <div>
-            <a href="/" className="text-xl font-bold">ALEX PARKER</a>
+            <a href="/" className="text-xl font-bold text-gray-800">ALEX PARKER</a>
           </div>
           <div className="md:hidden">
-            <button type="button" className="relative z-10 block text-gray-800" onClick={handleOpen}>
+            <button type="button" className="relative z-20 block text-gray-800" onClick={handleOpen}>
               <svg className="w-8 h-8 fill-current" viewBox='0 0 24 24' width='30'>
                 {
                   open ?
@@ -33,14 +38,14 @@ function Header() {
                 }
               </svg>
             </button>
-            {open && <button onClick={() => setOpen(false)} className="absolute inset-0 w-full h-full bg-transparent cursor-default" ></button>}
+            {open && <button onClick={() => setOpen(false)} className="absolute inset-0 z-10 w-full h-full bg-transparent cursor-default" ></button>}
           </div>
         </nav>
-        <div className={"text-right absolute right-0 px-2 py-2 rounded shadow-xl bg-gray-100 md:flex md:shadow-none md:rounded-none md:p-0 md:static" + (open ? ' block' : ' hidden')}>
-          <NavLink color="text-teal-500" href='#about'>ABOUT</NavLink>
-          <NavLink color="text-yellow-200" href='#projects'>PROJECTS</NavLink>
-          <NavLink color="text-red-300" href='#experience'>EXPERIENCE</NavLink>
-          <NavLink color="text-teal-500" href='#contact'>CONTACT</NavLink>
+        <div className={"z-10 text-right absolute right-0 px-2 py-2 rounded shadow-xl bg-gray-100 md:flex md:shadow-none md:rounded-none md:p-0 md:static" + (open ? ' block' : ' hidden')}>
+          <NavLink color="teal" href='#about'>ABOUT</NavLink>
+          <NavLink color="yellow" href='#projects'>PROJECTS</NavLink>
+          <NavLink color="red" href='#experience'>EXPERIENCE</NavLink>
+          <NavLink color="teal" href='#contact'>CONTACT</NavLink>
         </div>
       </div>
     </header>

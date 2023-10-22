@@ -1,26 +1,20 @@
-.parallax {
-  height: 500vh;
-  position: relative;
-  transform-style: preserve-3d;
-  -webkit-transform-style: preserve-3d;
+.parallax:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url(./images/background-tall.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.parallax:after {
-  width: 100vw;
-  background-image: url(./images/background-tall.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  z-index: -1;
-  content: "";
-  transform: translateZ(-1px) scale(2);
-  -webkit-transform: translateZ(-1px) scale(2);
-}
+/* Animations */
 
 .arrow {
   position: absolute;

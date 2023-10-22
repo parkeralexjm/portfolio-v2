@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <div className='parallax'>
-        <div className=''>
+        <div className='scroll-smooth'>
           <Nav />
           <Hero />
           <About />
