@@ -23,10 +23,10 @@ function About() {
     { name: 'VSCode', image: 'devicon-vscode-plain' }
   ]
   return (
-    <section id='about' className='justify-center p-6 mb-24 md:p-12 containerflex '>
-      <div className='flex flex-col items-center bg-gray-100 p-9 md:p-16 2xl:px-28'>
+    <section id='about' className='justify-center p-6 mb-24 md:p-12 containerflex'>
+      <div className='flex flex-col items-center bg-gray-100 p-9 md:p-16 2xl:px-28 group '>
         <h2 className='mb-6 text-4xl'>ABOUT ME</h2>
-        <span className='w-[50px] h-[10px] bg-teal-500 rounded mb-6'></span>
+        <span className='w-[50px] h-[10px] bg-teal-500 rounded mb-6 group-hover:w-[150px] group-hover:h-[5px] group-hover:mt-[5px] transition-all ease-in-out duration-1000'></span>
         <div className='flex flex-col lg:flex-row'>
           <div className='mb-6 lg:basis-1/2 lg:pr-6 lg:pt-2'>
             <p className='mb-3 text-justify'>Having worked as a teacher for the last 7 years I am seeking to change to a career as a software developer.</p>
@@ -38,7 +38,7 @@ function About() {
             {
               skills.map(({ name, image }, index) => {
                 return (
-                  <div key={index} className='flex flex-col items-center justify-center w-20 h-20 p-4 m-2 bg-gray-200 rounded shadow-md'>
+                  <div key={index} className='flex flex-col items-center justify-center w-20 h-20 p-4 m-2 transition-all duration-700 ease-out bg-gray-200 rounded shadow-md odd:hover:shadow-yellow-500 even:hover:shadow-red-500'>
                     <i className={`${image} text-4xl mb-1`}></i>
                     <h5 className='text-sm'>{name}</h5>
                   </div>

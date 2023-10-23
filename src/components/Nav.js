@@ -9,10 +9,12 @@ function Header() {
   }
 
   const NavLink = ({ children, color, href }) => {
-    const linkLayoutClasses = 'block text-gray-800 text-lg z-20 px-4 py-2 transition ease-in duration-200'
+    const linkLayoutClasses = 'block text-gray-800 text-lg z-20 mx-2 px-2 py-2 transition ease-in-out duration-200 group transition-all'
     const finalLinkClasses = `${linkLayoutClasses} ${colorVariants.hover[color]}`
     return (
-      <a className={finalLinkClasses} href={href} onClick={() => setOpen(false)}>{children}</a>
+      <a className={`${finalLinkClasses} relative ${colorVariants.transition[color]} after:absolute after:h-[2px] after:w-0 after:bottom-1 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer`} href={href} onClick={() => setOpen(false)}>
+        {children}
+      </a>
     )
   }
 
