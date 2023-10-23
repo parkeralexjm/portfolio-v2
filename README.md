@@ -9,6 +9,7 @@ On this site, you will find a selection of my past projects and accomplishments,
 - ReactJS
 - Tailwind
 
+
 I hope you enjoy exploring my portfolio website! Feel free to reach out to me using the contact section on the website.
 
 [Find a live deployment here](https://parkeralexjm.github.io/portfolio/)
