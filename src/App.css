@@ -7,7 +7,7 @@
   width: 100%;
   height: 100%;
   z-index: -10;
-  background: url(./images/background-tall.png) no-repeat center center;
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.25), rgba(245, 246, 252, 0.25)), url(./images/background-tall-noteal.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

@@ -8,15 +8,16 @@ function Contact() {
     <section id='contact'>
       <div className='flex flex-col items-center p-12 '>
         <h2 className='mb-6 text-4xl'>CONTACT</h2>
-        <img className='w-40 h-40 rounded-full' src={profile} alt="Alex Parker" />
-        <div className='container flex justify-around w-2/3 mt-4'>
-          <a href="https://www.linkedin.com/in/parkeralexjm/">
+        <span className='w-[50px] h-[10px] bg-teal-500 rounded mb-6'></span>
+        <img className='w-40 h-40 border-2 border-white rounded-full shadow-xl' src={profile} alt="Alex Parker" />
+        <div className='container flex items-center justify-between w-full mt-4 max-w-[400px]'>
+          <a className='flex items-center mb-1 text-lg md:text-xl' href="https://www.linkedin.com/in/parkeralexjm/">
             Linkedin<i className="ml-1 devicon-linkedin-plain"></i>
           </a>
-          <a href="https://github.com/parkeralexjm">
+          <a className='flex items-center mb-1 text-lg md:text-xl' href="https://github.com/parkeralexjm">
             Github<i className="ml-1 devicon-github-original"></i>
           </a>
-          <a href="mailto:parkeralexjm@gmail.com">
+          <a className='flex items-center mb-1 text-lg md:text-xl' href="mailto:parkeralexjm@gmail.com">
             Email<FontAwesomeIcon className='ml-1' icon={faEnvelope} />
           </a>
         </div>

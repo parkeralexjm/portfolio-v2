@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { colorVariants } from "./utilities/helper"
 
 function Header() {
   const [open, setOpen] = useState(false)
@@ -8,15 +9,10 @@ function Header() {
   }
 
   const NavLink = ({ children, color, href }) => {
-    const colorVariants = {
-      teal: 'hover:text-teal-500',
-      red: 'hover:text-red-500',
-      yellow: 'hover:text-yellow-500'
-    }
-    const linkLayoutClasses = 'block text-gray-800 text-xl z-20 px-4 py-2 font-semibold transition ease-in duration-200'
-    const finalLinkClasses = `${linkLayoutClasses} ${colorVariants[color]}`
+    const linkLayoutClasses = 'block text-gray-800 text-lg z-20 px-4 py-2 transition ease-in duration-200'
+    const finalLinkClasses = `${linkLayoutClasses} ${colorVariants.hover[color]}`
     return (
-      <a className={finalLinkClasses} href={href}>{children}</a>
+      <a className={finalLinkClasses} href={href} onClick={() => setOpen(false)}>{children}</a>
     )
   }
 
@@ -25,7 +21,7 @@ function Header() {
       <div className="container px-5 py-3 mx-auto md:flex md:justify-between">
         <nav className="flex items-center justify-between">
           <div>
-            <a href="/" className="text-xl font-bold text-gray-800">ALEX PARKER</a>
+            <a href="/" className="text-xl font-semibold text-gray-800">ALEX PARKER</a>
           </div>
           <div className="md:hidden">
             <button type="button" className="relative z-20 block text-gray-800" onClick={handleOpen}>

@@ -11,21 +11,21 @@ function Experience() {
   ]
   return (
     <section id='experience'>
-      <div className='flex flex-col items-center p-12 '>
+      <div className='flex flex-col items-center p-8 '>
         <h2 className='mb-6 text-4xl'>EXPERIENCE</h2>
-        <span className='w-[50px] h-[10px] bg-red-400 rounded mb-6'></span>
+        <span className='w-[50px] h-[10px] bg-red-500 rounded mb-6'></span>
         {
           experience.map(({ name, logo, position, dates, description }, index) => {
             return (
-              <div key={index} className='p-6 mb-6 bg-gray-200 rounded-md'>
-                <div className='flex justify-center'>
-                  <img src={logo} alt={name} className={'h-16 mb-4 ' + (name === 'Harris Academy Chobham' && 'bg-blue-950 h-14 rounded')} />
+              <div key={index} className='p-6 mb-6 bg-gray-100 rounded-md md:max-w-[800px] md:flex md:flex-row-reverse md:items-center'>
+                <div className='flex justify-center md:w-72'>
+                  <img src={logo} alt={name} className={'mb-4 md:mb-0 md:h-24 ' + (name === 'Harris Academy Chobham' && 'bg-blue-950 md:h-14 md:w-36 rounded p-1')} />
                 </div>
-                <div>
+                <div className='md:flex-grow md:pr-8'>
                   <h3 className='font-bold'>{position}</h3>
                   <h4 className='font-semibold'>{name}</h4>
                   <h5>{dates}</h5>
-                  <p className='text-justify'>{description}</p>
+                  <p className='text-sm text-justify'>{description}</p>
                 </div>
               </div>
             )
