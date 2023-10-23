@@ -39,7 +39,7 @@ function Projects() {
   }
 
   return (
-    <section id='projects' className='flex justify-center p-12 my-48 bg-gray-100'>
+    <section id='projects' className='flex justify-center p-12 mb-24 bg-gray-100 md:mb-36'>
       <div className='container flex flex-col items-center lg:p-12'>
         <h2 className='mb-6 text-4xl'>PROJECTS</h2>
         <span className='w-[50px] h-[10px] bg-yellow-500 rounded mb-6'></span>
@@ -47,7 +47,7 @@ function Projects() {
           {
             projects.map(({ name, image, mobileImage, link, github, description }, index) => {
               return (
-                <div key={index} className="flex flex-col items-center mb-6 lg:basis-1/2 lg:p-4">
+                <div key={index} className="flex flex-col items-center mb-6 border-b-2 border-b-yellow-500 lg:border-b-0 lg:basis-1/2 lg:p-4">
                   <h3 className='mb-3 text-2xl'>{name}</h3>
                   <div className='relative p-2 mb-5 bg-gray-400 border-2 border-gray-700 border-solid rounded-lg shadow-xl w-7/8'>
                     <img className='' src={image} alt={name} />

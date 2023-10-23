@@ -19,7 +19,7 @@ function Experience() {
             return (
               <div key={index} className='p-6 mb-6 bg-gray-100 rounded-md md:max-w-[800px] md:flex md:flex-row-reverse md:items-center'>
                 <div className='flex justify-center md:w-72'>
-                  <img src={logo} alt={name} className={'mb-4 md:mb-0 md:h-24 ' + (name === 'Harris Academy Chobham' && 'bg-blue-950 md:h-14 md:w-36 rounded p-1')} />
+                  <img src={logo} alt={name} className={'mb-4 h-20 md:mb-0 md:h-24 ' + (name === 'Harris Academy Chobham' && 'bg-blue-950 md:h-16 md:w-36 rounded p-1')} />
                 </div>
                 <div className='md:flex-grow md:pr-8'>
                   <h3 className='font-bold'>{position}</h3>

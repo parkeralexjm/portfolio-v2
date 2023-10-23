@@ -9,8 +9,8 @@ function Contact() {
       <div className='flex flex-col items-center p-12 '>
         <h2 className='mb-6 text-4xl'>CONTACT</h2>
         <span className='w-[50px] h-[10px] bg-teal-500 rounded mb-6'></span>
-        <img className='w-40 h-40 border-2 border-white rounded-full shadow-xl' src={profile} alt="Alex Parker" />
-        <div className='container flex items-center justify-between w-full mt-4 max-w-[400px]'>
+        <img className='w-40 h-40 mb-6 border-2 border-white rounded-full shadow-xl' src={profile} alt="Alex Parker" />
+        <div className='container flex items-center justify-between w-full max-w-[400px]'>
           <a className='flex items-center mb-1 text-lg md:text-xl' href="https://www.linkedin.com/in/parkeralexjm/">
             Linkedin<i className="ml-1 devicon-linkedin-plain"></i>
           </a>
