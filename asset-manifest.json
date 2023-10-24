@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/parkeralexjm.com/static/css/main.25b381cb.css",
-    "main.js": "/parkeralexjm.com/static/js/main.cd5b4216.js",
-    "static/media/everyday.PNG": "/parkeralexjm.com/static/media/everyday.f1cd43d8cc77dcdb8be4.PNG",
-    "static/media/weather-mobile.PNG": "/parkeralexjm.com/static/media/weather-mobile.68b21559027db9b83964.PNG",
-    "static/media/everyday-mobile.PNG": "/parkeralexjm.com/static/media/everyday-mobile.282f85f54eaed536923a.PNG",
-    "static/media/weather.PNG": "/parkeralexjm.com/static/media/weather.7522d03443cefe099173.PNG",
-    "static/media/gourmet.PNG": "/parkeralexjm.com/static/media/gourmet.251589d0db1f621d2483.PNG",
-    "static/media/gourmet-mobile.PNG": "/parkeralexjm.com/static/media/gourmet-mobile.47b50599530a6f871733.PNG",
-    "static/media/background-tall-noteal.png": "/parkeralexjm.com/static/media/background-tall-noteal.f5cb2d6b1b9d104ed13d.png",
-    "static/media/collect-mobile.PNG": "/parkeralexjm.com/static/media/collect-mobile.ba20c834fc6cba79e1bd.PNG",
-    "static/media/collect.PNG": "/parkeralexjm.com/static/media/collect.2b7943895347539d5e88.PNG",
-    "static/media/Aparker.jpg": "/parkeralexjm.com/static/media/Aparker.05f5e03ab8c0a5c9b392.jpg",
-    "static/media/pacman-mobile.png": "/parkeralexjm.com/static/media/pacman-mobile.50009971f71883605925.png",
-    "static/media/pacman.PNG": "/parkeralexjm.com/static/media/pacman.74d9374ac79c782d070d.PNG",
-    "index.html": "/parkeralexjm.com/index.html",
-    "main.25b381cb.css.map": "/parkeralexjm.com/static/css/main.25b381cb.css.map",
-    "main.cd5b4216.js.map": "/parkeralexjm.com/static/js/main.cd5b4216.js.map"
+    "main.css": "/static/css/main.ede3a885.css",
+    "main.js": "/static/js/main.d82f266c.js",
+    "static/media/everyday.PNG": "/static/media/everyday.f1cd43d8cc77dcdb8be4.PNG",
+    "static/media/weather-mobile.PNG": "/static/media/weather-mobile.68b21559027db9b83964.PNG",
+    "static/media/everyday-mobile.PNG": "/static/media/everyday-mobile.282f85f54eaed536923a.PNG",
+    "static/media/weather.PNG": "/static/media/weather.7522d03443cefe099173.PNG",
+    "static/media/gourmet.PNG": "/static/media/gourmet.251589d0db1f621d2483.PNG",
+    "static/media/gourmet-mobile.PNG": "/static/media/gourmet-mobile.47b50599530a6f871733.PNG",
+    "static/media/background-tall-noteal.png": "/static/media/background-tall-noteal.f5cb2d6b1b9d104ed13d.png",
+    "static/media/collect-mobile.PNG": "/static/media/collect-mobile.ba20c834fc6cba79e1bd.PNG",
+    "static/media/collect.PNG": "/static/media/collect.2b7943895347539d5e88.PNG",
+    "static/media/Aparker.jpg": "/static/media/Aparker.05f5e03ab8c0a5c9b392.jpg",
+    "static/media/pacman-mobile.png": "/static/media/pacman-mobile.50009971f71883605925.png",
+    "static/media/pacman.PNG": "/static/media/pacman.74d9374ac79c782d070d.PNG",
+    "index.html": "/index.html",
+    "main.ede3a885.css.map": "/static/css/main.ede3a885.css.map",
+    "main.d82f266c.js.map": "/static/js/main.d82f266c.js.map"
   },
   "entrypoints": [
-    "static/css/main.25b381cb.css",
-    "static/js/main.cd5b4216.js"
+    "static/css/main.ede3a885.css",
+    "static/js/main.d82f266c.js"
   ]
 }
