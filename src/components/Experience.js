@@ -12,20 +12,20 @@ function Experience() {
   return (
     <section id='experience' name="experience">
       <div className='flex flex-col items-center p-8 group'>
-        <h2 className='mb-6 text-4xl'>EXPERIENCE</h2>
+        <h2 className='mb-6 text-4xl dark:text-gray-200'>EXPERIENCE</h2>
         <span className='w-[50px] h-[10px] bg-red-500 rounded mb-6 group-hover:w-[150px] group-hover:h-[5px] group-hover:mt-[5px] transition-all ease-in-out duration-1000'></span>
         {
           experience.map(({ name, logo, position, dates, description }, index) => {
             return (
-              <div key={index} className='p-6 mb-6 bg-gray-100 rounded-md md:max-w-[800px] md:flex md:flex-row-reverse md:items-center'>
+              <div key={index} className='p-6 mb-6 bg-gray-100 dark:bg-gray-800 rounded-md md:max-w-[800px] md:flex md:flex-row-reverse md:items-center'>
                 <div className='flex justify-center md:w-72'>
                   <img src={logo} alt={name} className={'mb-4 h-20 md:mb-0 md:h-16 ' + (name === 'Harris Academy Chobham' && 'bg-blue-950 md:w-36 rounded p-1')} />
                 </div>
                 <div className='md:flex-grow md:pr-8'>
-                  <h3 className='font-bold'>{position}</h3>
-                  <h4 className='font-semibold'>{name}</h4>
-                  <h5>{dates}</h5>
-                  <p className='text-sm text-justify'>{description}</p>
+                  <h3 className='font-bold dark:text-gray-200'>{position}</h3>
+                  <h4 className='font-semibold dark:text-gray-200'>{name}</h4>
+                  <h5 classname='dark:text-gray-200'>{dates}</h5>
+                  <p className='text-sm text-justify dark:text-gray-200'>{description}</p>
                 </div>
               </div>
             )

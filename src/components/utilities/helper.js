@@ -1,13 +1,13 @@
 export const colorVariants = {
   "transition": {
-    teal: 'after:bg-teal-500',
-    red: 'after:bg-red-500',
-    yellow: 'after:bg-yellow-500'
+    teal: 'after:bg-teal-500 dark:after:bg-teal-600  ',
+    red: 'after:bg-red-500 dark:after:bg-red-800',
+    yellow: 'after:bg-yellow-500 dark:after:bg-yellow-600'
   },
   "hover": {
-    teal: 'hover:text-teal-500',
-    red: 'hover:text-red-500',
-    yellow: 'hover:text-yellow-500'
+    teal: 'hover:text-teal-500 dark:hover:text-teal-600',
+    red: 'hover:text-red-500 dark:hover:text-red-800',
+    yellow: 'hover:text-yellow-500 dark:hover:text-yellow-600'
   },
   "text": {
     teal: 'text-teal-500',

@@ -44,7 +44,7 @@ function Header() {
   }
 
   const NavLink = ({ children, color, href }) => {
-    const linkLayoutClasses = 'block text-gray-800 text-lg z-20 mx-2 px-2 py-2 transition ease-in-out duration-200 group transition-all'
+    const linkLayoutClasses = 'block text-lg z-20 mx-2 px-2 py-2 transition ease-in-out duration-200 group transition-all dark:text-gray-200'
     const finalLinkClasses = `${linkLayoutClasses} ${colorVariants.hover[color]}`
     return (
       <Link to={href} smooth duration={750} className={`${finalLinkClasses} relative ${colorVariants.transition[color]} after:absolute after:h-[2px] after:w-0 after:bottom-1 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer`} href={href} onClick={() => setOpen(false)}>
@@ -59,7 +59,7 @@ function Header() {
         <nav className="flex items-center justify-between">
           <div className="flex items-center">
             <button
-              className="items-center hidden w-10 h-5 ml-1 mr-4 transition duration-300 bg-white rounded-full shadow focus:outline-none md:flex"
+              className="items-center hidden w-10 h-5 ml-1 mr-4 transition duration-300 bg-gray-100 rounded-full shadow dark:bg-gray-200 focus:outline-none md:flex"
               onClick={handleClick}>
               <div
                 id="switch-toggle"
@@ -69,7 +69,7 @@ function Header() {
                 </svg>
               </div>
             </button>
-            <a href="/" className="mr-4 text-xl font-semibold text-gray-800">ALEX PARKER</a>
+            <a href="/" className="mr-4 text-xl font-semibold dark:text-gray-200">ALEX PARKER</a>
           </div>
           <div className="flex items-center md:hidden">
             <button
@@ -98,7 +98,7 @@ function Header() {
             </div>
           </div>
         </nav>
-        <div className={"z-10 text-right absolute right-0 px-2 py-2 rounded shadow-xl bg-gray-100 md:flex md:shadow-none md:rounded-none md:p-0 md:static" + (open ? ' block' : ' hidden')}>
+        <div className={"z-10 text-right absolute right-0 px-2 py-2 rounded shadow-xl bg-gray-100 dark:bg-gray-800 md:flex md:shadow-none md:rounded-none md:p-0 md:static" + (open ? ' block' : ' hidden')}>
           <NavLink color="teal" href='about'>ABOUT</NavLink>
           <NavLink color="yellow" href='projects'>PROJECTS</NavLink>
           <NavLink color="red" href='experience'>EXPERIENCE</NavLink>
