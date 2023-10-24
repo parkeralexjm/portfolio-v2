@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { colorVariants } from "./utilities/helper"
+import { Link, animateScroll as scroll, scrollSpy } from 'react-scroll'
 
 function Header() {
   const [open, setOpen] = useState(false)
@@ -12,9 +13,9 @@ function Header() {
     const linkLayoutClasses = 'block text-gray-800 text-lg z-20 mx-2 px-2 py-2 transition ease-in-out duration-200 group transition-all'
     const finalLinkClasses = `${linkLayoutClasses} ${colorVariants.hover[color]}`
     return (
-      <a className={`${finalLinkClasses} relative ${colorVariants.transition[color]} after:absolute after:h-[2px] after:w-0 after:bottom-1 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer`} href={href} onClick={() => setOpen(false)}>
+      <Link to={href} smooth duration={750} className={`${finalLinkClasses} relative ${colorVariants.transition[color]} after:absolute after:h-[2px] after:w-0 after:bottom-1 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer`} href={href} onClick={() => setOpen(false)}>
         {children}
-      </a>
+      </Link>
     )
   }
 
@@ -40,10 +41,10 @@ function Header() {
           </div>
         </nav>
         <div className={"z-10 text-right absolute right-0 px-2 py-2 rounded shadow-xl bg-gray-100 md:flex md:shadow-none md:rounded-none md:p-0 md:static" + (open ? ' block' : ' hidden')}>
-          <NavLink color="teal" href='#about'>ABOUT</NavLink>
-          <NavLink color="yellow" href='#projects'>PROJECTS</NavLink>
-          <NavLink color="red" href='#experience'>EXPERIENCE</NavLink>
-          <NavLink color="teal" href='#contact'>CONTACT</NavLink>
+          <NavLink color="teal" href='about'>ABOUT</NavLink>
+          <NavLink color="yellow" href='projects'>PROJECTS</NavLink>
+          <NavLink color="red" href='experience'>EXPERIENCE</NavLink>
+          <NavLink color="teal" href='contact'>CONTACT</NavLink>
         </div>
       </div>
     </header>

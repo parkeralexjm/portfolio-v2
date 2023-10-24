@@ -14,7 +14,7 @@ const ContactLinks = ({ children, href, color }) => {
 
 function Contact() {
   return (
-    <section id='contact'>
+    <section id='contact' name="contact">
       <div className='flex flex-col items-center p-12 group'>
         <h2 className='mb-6 text-4xl'>CONTACT</h2>
         <span className='w-[50px] h-[10px] bg-teal-500 rounded mb-6  group-hover:w-[150px] group-hover:h-[5px] group-hover:mt-[5px] transition-all ease-in-out duration-1000'></span>
