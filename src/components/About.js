@@ -23,7 +23,7 @@ function About() {
     { name: 'VSCode', image: 'devicon-vscode-plain' }
   ]
   return (
-    <section id='about' className='justify-center p-6 mb-24 md:p-12 containerflex'>
+    <section id='about' name='about' className='justify-center p-6 mb-24 md:p-12 containerflex'>
       <div className='flex flex-col items-center bg-gray-100 p-9 md:p-16 2xl:px-28 group '>
         <h2 className='mb-6 text-4xl'>ABOUT ME</h2>
         <span className='w-[50px] h-[10px] bg-teal-500 rounded mb-6 group-hover:w-[150px] group-hover:h-[5px] group-hover:mt-[5px] transition-all ease-in-out duration-1000'></span>

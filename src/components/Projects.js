@@ -50,7 +50,7 @@ function Projects() {
   }
 
   return (
-    <section id='projects' className='flex justify-center p-12 mb-24 bg-gray-100 md:mb-36'>
+    <section id='projects' name='projects' className='flex justify-center p-12 mb-24 bg-gray-100 md:mb-36'>
       <div className='container flex flex-col items-center lg:p-12 group'>
         <h2 className='mb-6 text-4xl'>PROJECTS</h2>
         <span className='w-[50px] h-[10px] bg-yellow-500 rounded mb-6 group-hover:w-[150px] group-hover:h-[5px] group-hover:mt-[5px] transition-all ease-in-out duration-1000'></span>
