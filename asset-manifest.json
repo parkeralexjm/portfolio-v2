@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5e22c80c.css",
-    "main.js": "/static/js/main.07ea6c2e.js",
+    "main.css": "/static/css/main.951aa8e9.css",
+    "main.js": "/static/js/main.af197de6.js",
     "static/media/everyday.PNG": "/static/media/everyday.f1cd43d8cc77dcdb8be4.PNG",
     "static/media/weather-mobile.PNG": "/static/media/weather-mobile.68b21559027db9b83964.PNG",
     "static/media/everyday-mobile.PNG": "/static/media/everyday-mobile.282f85f54eaed536923a.PNG",
@@ -15,11 +15,11 @@
     "static/media/pacman-mobile.png": "/static/media/pacman-mobile.50009971f71883605925.png",
     "static/media/pacman.PNG": "/static/media/pacman.74d9374ac79c782d070d.PNG",
     "index.html": "/index.html",
-    "main.5e22c80c.css.map": "/static/css/main.5e22c80c.css.map",
-    "main.07ea6c2e.js.map": "/static/js/main.07ea6c2e.js.map"
+    "main.951aa8e9.css.map": "/static/css/main.951aa8e9.css.map",
+    "main.af197de6.js.map": "/static/js/main.af197de6.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e22c80c.css",
-    "static/js/main.07ea6c2e.js"
+    "static/css/main.951aa8e9.css",
+    "static/js/main.af197de6.js"
   ]
 }
