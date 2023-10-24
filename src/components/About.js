@@ -4,8 +4,8 @@ function About() {
 
   const skills = [
     { name: 'JavaScript', image: 'devicon-javascript-plain' },
-    { name: 'CSS3', image: 'devicon-css3-plain' },
     { name: 'HTML5', image: 'devicon-html5-plain' },
+    { name: 'CSS3', image: 'devicon-css3-plain' },
     { name: 'React', image: 'devicon-react-original' },
     { name: 'MongoDB', image: 'devicon-mongodb-plain' },
     { name: 'express', image: 'devicon-express-original' },
@@ -17,7 +17,8 @@ function About() {
     { name: 'Python', image: 'devicon-python-plain' },
     { name: 'django', image: 'devicon-django-plain' },
     { name: 'PostgreSQL', image: 'devicon-postgresql-plain' },
-    { name: 'Git', image: 'devicon-git-plain' },
+    { name: 'Tailwind', image: 'devicon-tailwindcss-plain' },
+    // { name: 'Git', image: 'devicon-git-plain' },
     { name: 'Heroku', image: 'devicon-heroku-plain' },
     { name: 'Figma', image: 'devicon-figma-plain' },
     { name: 'VSCode', image: 'devicon-vscode-plain' }
@@ -32,7 +33,6 @@ function About() {
             <p className='mb-3 text-justify'>Having worked as a teacher for the last 7 years I am seeking to change to a career as a software developer.</p>
             <p className='mb-3 text-justify'>As a passionate and versatile software engineer, my journey has taken me from the classroom to coding, blending the precision and problem-solving skills honed as a teacher with a profound love for technology.</p>
             <p className='hidden text-justify md:block'>Outside of software development, my interests in video games and cooking fuel my creativity, fostering a holistic approach to problem-solving. I am eager to contribute my diverse skills and enthusiasm for technology to a dynamic software engineering role, where I can make meaningful contributions and continue my professional growth.</p>
-
           </div>
           <div className='flex flex-wrap justify-center lg:basis-1/2'>
             {

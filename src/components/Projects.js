@@ -1,24 +1,8 @@
 import React from 'react'
-import collect from '../images/projects/collect.PNG'
-import gourmet from '../images/projects/gourmet.PNG'
-import everyday from '../images/projects/everyday.PNG'
-import pacman from '../images/projects/pacman.PNG'
-import weather from '../images/projects/weather.PNG'
-import collectMobile from '../images/projects/collect-mobile.PNG'
-import gourmetMobile from '../images/projects/gourmet-mobile.PNG'
-import everydayMobile from '../images/projects/everyday-mobile.PNG'
-import pacmanMobile from '../images/projects/pacman-mobile.png'
-import weatherMobile from '../images/projects/weather-mobile.PNG'
 import { colorVariants } from './utilities/helper'
+import { projects } from './utilities/projectInfo'
 
 function Projects() {
-  const projects = [
-    { name: 'Collect.BG', image: collect, mobileImage: collectMobile, link: 'http://collect-bg-229e9688a986.herokuapp.com/', github: 'https://github.com/parkeralexjm/collect-bg', description: 'Built using Django, PostgreSQL and React; Collect.BG is a board-game collection website where users can send chat messages, follow other users and display their board game collections.' },
-    { name: 'Gourmet Gossip', image: gourmet, mobileImage: gourmetMobile, link: 'https://gourmet-gossip-665d7e750e14.herokuapp.com/', github: 'https://github.com/parkeralexjm/gourmet-gossip', description: 'A recipe sharing website where users can create, edit and delete recipes and leave reviews for recipes that they enjoy.' },
-    { name: 'Everyday Alchemy', image: everyday, mobileImage: everydayMobile, link: 'https://everyday-alchemy.netlify.app/', github: 'https://github.com/parkeralexjm/everyday-alchemy', description: 'A cocktail recipe database allowing users to search for their favourite cocktails and filter by spirit to find new ones.' },
-    { name: 'Pacman clone', image: pacman, mobileImage: pacmanMobile, link: 'https://parkeralexjm.github.io/puckman-clone/', github: 'https://github.com/parkeralexjm/puckman-clone', description: 'I was given one week to complete a grid-based game using javaScript, HTML and CSS. This is a "faithful" reproduction of the classic Pac-man game.' },
-    { name: 'Weather app', image: weather, mobileImage: weatherMobile, link: 'https://parkeralexjm.github.io/weather-app/', github: 'https://github.com/parkeralexjm/weather-app', description: 'A weather display app showing the forecasted weather in searchable locations.' }
-  ]
 
   const LinkButton = ({ children, href, color, outline = false, }) => {
     return (
@@ -56,7 +40,7 @@ function Projects() {
         <span className='w-[50px] h-[10px] bg-yellow-500 rounded mb-6 group-hover:w-[150px] group-hover:h-[5px] group-hover:mt-[5px] transition-all ease-in-out duration-1000'></span>
         <div className='lg:flex lg:flex-wrap lg:justify-center'>
           {
-            projects.map(({ name, image, mobileImage, link, github, description }, index) => {
+            projects.map(({ name, image, mobileImage, link, github, description, technologies }, index) => {
               return (
                 <div key={index} className="flex flex-col items-center mb-6 border-b-2 border-b-yellow-500 lg:border-b-0 lg:basis-1/2 lg:p-4">
                   <h3 className='mb-3 text-2xl'>{name}</h3>
@@ -72,6 +56,15 @@ function Projects() {
                       <LinkButton color='red' href={github}>Github <i className="devicon-github-original"></i></LinkButton>
                     </div>
                     <p className='flex-grow text-justify'>{description}</p>
+                  </div>
+                  <div className='flex flex-wrap justify-center'>
+                    {
+                      technologies.map(({ image }, index) => {
+                        return (
+                          <i key={index} className={`${image} text-2xl mx-1 mb-2 md:text-4xl lg:mb-4`}></i>
+                        )
+                      })
+                    }
                   </div>
                   <span className='w-full h-[2px] bg-yellow-500 rounded'></span>
                 </div>
