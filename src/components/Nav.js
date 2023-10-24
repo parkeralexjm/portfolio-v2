@@ -84,7 +84,7 @@ function Header() {
               </div>
             </button>
             <div>
-              <button type="button" className="relative z-20 block text-gray-800" onClick={handleOpen}>
+              <button type="button" className="relative z-20 block text-gray-800 dark:text-gray-200" onClick={handleOpen}>
                 <svg className="w-8 h-8 fill-current" viewBox='0 0 24 24' width='30'>
                   {
                     open ?
