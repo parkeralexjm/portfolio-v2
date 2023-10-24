@@ -14,6 +14,10 @@ html,
   -moz-osx-font-smoothing: grayscale;
 }
 
+body * {
+  @apply transition-colors duration-300;
+}
+
 code {
   font-family: 'Outfit', sans-serif;
 }
