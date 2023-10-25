@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.6fb4c561.css",
+    "main.css": "/static/css/main.f39a60b6.css",
     "main.js": "/static/js/main.ed00ef92.js",
     "static/media/everyday.PNG": "/static/media/everyday.f1cd43d8cc77dcdb8be4.PNG",
     "static/media/weather-mobile.PNG": "/static/media/weather-mobile.68b21559027db9b83964.PNG",
@@ -8,19 +8,19 @@
     "static/media/weather.PNG": "/static/media/weather.7522d03443cefe099173.PNG",
     "static/media/gourmet.PNG": "/static/media/gourmet.251589d0db1f621d2483.PNG",
     "static/media/gourmet-mobile.PNG": "/static/media/gourmet-mobile.47b50599530a6f871733.PNG",
-    "static/media/background-tall-dark.png": "/static/media/background-tall-dark.1a3eecd65ccf28e3445e.png",
     "static/media/background-tall-noteal.png": "/static/media/background-tall-noteal.f5cb2d6b1b9d104ed13d.png",
+    "static/media/background-tall-dark.png": "/static/media/background-tall-dark.e018fae92c388ffcc880.png",
     "static/media/collect-mobile.PNG": "/static/media/collect-mobile.ba20c834fc6cba79e1bd.PNG",
     "static/media/collect.PNG": "/static/media/collect.2b7943895347539d5e88.PNG",
     "static/media/Aparker.jpg": "/static/media/Aparker.05f5e03ab8c0a5c9b392.jpg",
     "static/media/pacman-mobile.png": "/static/media/pacman-mobile.50009971f71883605925.png",
     "static/media/pacman.PNG": "/static/media/pacman.74d9374ac79c782d070d.PNG",
     "index.html": "/index.html",
-    "main.6fb4c561.css.map": "/static/css/main.6fb4c561.css.map",
+    "main.f39a60b6.css.map": "/static/css/main.f39a60b6.css.map",
     "main.ed00ef92.js.map": "/static/js/main.ed00ef92.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fb4c561.css",
+    "static/css/main.f39a60b6.css",
     "static/js/main.ed00ef92.js"
   ]
 }
