@@ -25,7 +25,7 @@ function About() {
   ]
   return (
     <section id='about' name='about' className='justify-center p-6 mb-24 md:p-12 containerflex'>
-      <div className='flex flex-col items-center bg-gray-100 dark:bg-gray-800 p-9 md:p-16 2xl:px-28 group '>
+      <div className='flex flex-col items-center transition-colors duration-300 bg-gray-100 dark:bg-gray-800 p-9 md:p-16 2xl:px-28 group '>
         <h2 className='mb-6 text-4xl dark:text-gray-200'>ABOUT ME</h2>
         <span className='w-[50px] h-[10px] bg-teal-500 rounded mb-6 group-hover:w-[150px] group-hover:h-[5px] group-hover:mt-[5px] transition-all ease-in-out duration-1000'></span>
         <div className='flex flex-col lg:flex-row'>
