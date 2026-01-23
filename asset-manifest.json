@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.080d530c.css",
-    "main.js": "/static/js/main.18cdc79d.js",
-    "static/media/AParker.png": "/static/media/AParker.758bda0d002e94655363.png",
-    "static/media/everyday.PNG": "/static/media/everyday.f1cd43d8cc77dcdb8be4.PNG",
-    "static/media/weather-mobile.PNG": "/static/media/weather-mobile.68b21559027db9b83964.PNG",
-    "static/media/everyday-mobile.PNG": "/static/media/everyday-mobile.282f85f54eaed536923a.PNG",
-    "static/media/weather.PNG": "/static/media/weather.7522d03443cefe099173.PNG",
-    "static/media/gourmet.PNG": "/static/media/gourmet.251589d0db1f621d2483.PNG",
-    "static/media/gourmet-mobile.PNG": "/static/media/gourmet-mobile.47b50599530a6f871733.PNG",
-    "static/media/background-tall-noteal.png": "/static/media/background-tall-noteal.f5cb2d6b1b9d104ed13d.png",
-    "static/media/background-tall-dark.png": "/static/media/background-tall-dark.e018fae92c388ffcc880.png",
-    "static/media/pairable.png": "/static/media/pairable.26d4d378066af9f4accb.png",
-    "static/media/collect-mobile.PNG": "/static/media/collect-mobile.ba20c834fc6cba79e1bd.PNG",
-    "static/media/collect.PNG": "/static/media/collect.2b7943895347539d5e88.PNG",
-    "static/media/pairable-mobile.png": "/static/media/pairable-mobile.0a5787ea35ebc033ffc6.png",
-    "static/media/pacman-mobile.png": "/static/media/pacman-mobile.50009971f71883605925.png",
-    "static/media/pacman.PNG": "/static/media/pacman.74d9374ac79c782d070d.PNG",
-    "static/media/smg-logo.svg": "/static/media/smg-logo.2e6cef4e174d983b068ec16ad07d626d.svg",
-    "index.html": "/index.html",
-    "main.080d530c.css.map": "/static/css/main.080d530c.css.map",
-    "main.18cdc79d.js.map": "/static/js/main.18cdc79d.js.map"
+    "main.css": "/portfolio-v2/static/css/main.993f209a.css",
+    "main.js": "/portfolio-v2/static/js/main.e467ad5a.js",
+    "static/media/AParker.png": "/portfolio-v2/static/media/AParker.758bda0d002e94655363.png",
+    "static/media/everyday.PNG": "/portfolio-v2/static/media/everyday.f1cd43d8cc77dcdb8be4.PNG",
+    "static/media/weather-mobile.PNG": "/portfolio-v2/static/media/weather-mobile.68b21559027db9b83964.PNG",
+    "static/media/everyday-mobile.PNG": "/portfolio-v2/static/media/everyday-mobile.282f85f54eaed536923a.PNG",
+    "static/media/weather.PNG": "/portfolio-v2/static/media/weather.7522d03443cefe099173.PNG",
+    "static/media/gourmet.PNG": "/portfolio-v2/static/media/gourmet.251589d0db1f621d2483.PNG",
+    "static/media/gourmet-mobile.PNG": "/portfolio-v2/static/media/gourmet-mobile.47b50599530a6f871733.PNG",
+    "static/media/background-tall-noteal.png": "/portfolio-v2/static/media/background-tall-noteal.f5cb2d6b1b9d104ed13d.png",
+    "static/media/background-tall-dark.png": "/portfolio-v2/static/media/background-tall-dark.e018fae92c388ffcc880.png",
+    "static/media/pairable.png": "/portfolio-v2/static/media/pairable.26d4d378066af9f4accb.png",
+    "static/media/collect-mobile.PNG": "/portfolio-v2/static/media/collect-mobile.ba20c834fc6cba79e1bd.PNG",
+    "static/media/collect.PNG": "/portfolio-v2/static/media/collect.2b7943895347539d5e88.PNG",
+    "static/media/pairable-mobile.png": "/portfolio-v2/static/media/pairable-mobile.0a5787ea35ebc033ffc6.png",
+    "static/media/pacman-mobile.png": "/portfolio-v2/static/media/pacman-mobile.50009971f71883605925.png",
+    "static/media/pacman.PNG": "/portfolio-v2/static/media/pacman.74d9374ac79c782d070d.PNG",
+    "static/media/smg-logo.svg": "/portfolio-v2/static/media/smg-logo.2e6cef4e174d983b068ec16ad07d626d.svg",
+    "index.html": "/portfolio-v2/index.html",
+    "main.993f209a.css.map": "/portfolio-v2/static/css/main.993f209a.css.map",
+    "main.e467ad5a.js.map": "/portfolio-v2/static/js/main.e467ad5a.js.map"
   },
   "entrypoints": [
-    "static/css/main.080d530c.css",
-    "static/js/main.18cdc79d.js"
+    "static/css/main.993f209a.css",
+    "static/js/main.e467ad5a.js"
   ]
 }
