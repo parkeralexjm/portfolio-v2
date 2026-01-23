@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.4a08b3f5.css",
-    "main.js": "/static/js/main.9593b424.js",
+    "main.css": "/static/css/main.080d530c.css",
+    "main.js": "/static/js/main.18cdc79d.js",
+    "static/media/AParker.png": "/static/media/AParker.758bda0d002e94655363.png",
     "static/media/everyday.PNG": "/static/media/everyday.f1cd43d8cc77dcdb8be4.PNG",
     "static/media/weather-mobile.PNG": "/static/media/weather-mobile.68b21559027db9b83964.PNG",
     "static/media/everyday-mobile.PNG": "/static/media/everyday-mobile.282f85f54eaed536923a.PNG",
@@ -10,17 +11,19 @@
     "static/media/gourmet-mobile.PNG": "/static/media/gourmet-mobile.47b50599530a6f871733.PNG",
     "static/media/background-tall-noteal.png": "/static/media/background-tall-noteal.f5cb2d6b1b9d104ed13d.png",
     "static/media/background-tall-dark.png": "/static/media/background-tall-dark.e018fae92c388ffcc880.png",
+    "static/media/pairable.png": "/static/media/pairable.26d4d378066af9f4accb.png",
     "static/media/collect-mobile.PNG": "/static/media/collect-mobile.ba20c834fc6cba79e1bd.PNG",
     "static/media/collect.PNG": "/static/media/collect.2b7943895347539d5e88.PNG",
-    "static/media/Aparker.jpg": "/static/media/Aparker.05f5e03ab8c0a5c9b392.jpg",
+    "static/media/pairable-mobile.png": "/static/media/pairable-mobile.0a5787ea35ebc033ffc6.png",
     "static/media/pacman-mobile.png": "/static/media/pacman-mobile.50009971f71883605925.png",
     "static/media/pacman.PNG": "/static/media/pacman.74d9374ac79c782d070d.PNG",
+    "static/media/smg-logo.svg": "/static/media/smg-logo.2e6cef4e174d983b068ec16ad07d626d.svg",
     "index.html": "/index.html",
-    "main.4a08b3f5.css.map": "/static/css/main.4a08b3f5.css.map",
-    "main.9593b424.js.map": "/static/js/main.9593b424.js.map"
+    "main.080d530c.css.map": "/static/css/main.080d530c.css.map",
+    "main.18cdc79d.js.map": "/static/js/main.18cdc79d.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a08b3f5.css",
-    "static/js/main.9593b424.js"
+    "static/css/main.080d530c.css",
+    "static/js/main.18cdc79d.js"
   ]
 }
